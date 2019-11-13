@@ -42,6 +42,8 @@ export default class BMI extends Component {
         <Text></Text>
         <Text></Text>
         <Image style={styles.image} source={require('./man_19-512.png')} />
+        <Text></Text>
+        <Text></Text>
         <TextInput style={styles.textInput}
           onChangeText={weight => this.setState({ weight })}
           placeholder="Weight (KG)"
